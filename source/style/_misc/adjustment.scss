@@ -1,0 +1,58 @@
+// adjustment vars
+$white: #F6F6F6;
+
+// adjustment styles
+body, html {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-size: 16px;
+	font-family:'robotoregular';
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color:#6da3bd;
+		&:hover{
+			text-decoration: none;
+		}
+}
+h1 {
+	font-size: 3.975rem;
+	font-family: 'sansus_webissimoregular';
+	padding: 0;
+	margin: 0;
+}
+h2 {
+	font-size: 2.1875rem;
+	font-family: 'sansus_webissimoregular';
+	padding: 0;
+	margin: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+
+.wrapper {
+	width: 100%;
+	background: $white;
+}
+
+.container {
+	margin: 0 auto;
+	width: 95%;
+}

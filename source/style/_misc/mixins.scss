@@ -1,0 +1,14 @@
+///@extend %clearfix;
+%clearfix {
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+//@include inlineblock (bottom);
+@mixin inlineblock($valign: top) {
+	display: inline-block;
+	vertical-align: $valign;
+}

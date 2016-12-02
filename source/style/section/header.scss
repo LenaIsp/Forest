@@ -1,0 +1,23 @@
+.header {
+	background: #f8f9f5 url(../img/fon.png) 50% 0 no-repeat;
+	background-size: cover;
+	padding-top: 30px;
+}
+
+.menu {
+	width: 100%;
+	display: inline-block;
+	font-size:0;
+}
+
+.menu__left {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.menu__right {
+	width: 50%;
+	display: inline-block;
+	text-align: right;
+}

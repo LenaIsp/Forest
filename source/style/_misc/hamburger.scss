@@ -1,0 +1,12 @@
+.hamburger {
+	color: #fff;
+	padding-right:30px;
+	svg {
+		width: 40px;
+		height: 40px;
+		fill: currentColor;
+		&:hover {
+			fill: #4e8839;
+		}
+	}
+}

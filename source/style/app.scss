@@ -1,5 +1,16 @@
-body {
-  margin: 0;
-}
+//layout
+@import "_misc/font-awesome.scss";
+@import "_misc/fonts.scss";
+@import "_misc/mixins.scss";
+@import "_misc/adjustment.scss";
+@import "_misc/icons.scss";
+@import "_misc/hamburger.scss";
 
-@import 'common/greating';
+
+// styles
+@import "section/header.scss";
+@import "section/footer.scss";
+
+
+//media
+@import "adaptive/media.scss";
