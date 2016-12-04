@@ -1,5 +1,6 @@
-#Учебная сборка Loftschool (выпускной проект №1)
+#Loftschool (выпускной проект №1)
 Исправникова Елена
+http://elenaisp.ru/
 
 Stack:
  - Gulp 4.0
