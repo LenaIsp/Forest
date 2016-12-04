@@ -1,0 +1,64 @@
+.footer {
+	background-color: rgba(0,0,0, .8);
+	font-family:'robotolight';
+}
+.copyright {
+	display: inline-block;
+	width: 100%;
+	color: rgba(255,255,255, .5);
+	font-size: 0;
+	margin: 1.526rem 0 3.125rem 0;
+	vertical-align: top;
+}
+
+.copyright__left {
+	display: inline-block;
+	width: 40%;
+	font-size:1rem;
+	vertical-align: top;
+		p {
+			width: 22.85rem;
+		}
+}
+
+.copyright__center{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+.copyright__right{
+	display: inline-block;
+	width: 30%;
+	font-size:1rem;
+	vertical-align: top;
+	font-family:'robotolight_italic';
+		p.bold{
+			font-family:robotobold_italic;
+		}
+}
+
+.search {
+	margin-bottom: 1.2rem;
+}
+
+.search__item {
+	font-size:1rem;
+	display: inline-block;
+	font-family: 'robotobold';
+	padding-right: 1.5rem;
+}
+.search__link {
+	color: #ffffff;
+	text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+}
+.footer__bottom {
+	background-color: rgba(108, 156, 90, .75);
+	text-align: center;
+	padding: 1rem 0;
+	color: rgba(255, 255, 255, .8);
+}
+

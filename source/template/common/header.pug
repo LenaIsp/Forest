@@ -23,12 +23,17 @@ header.header
 	.header__middle
 		.about
 			.about__fon
-				svg.about__portfolio
+				img.about__portfolio(src='assets/img/portfolio_header.png')
+				//svg.about__portfolio
 					use(xlink:href='assets/img/sprite.svg#portfolio_header')
-			.about__img
-				img(src='assets/img/IMG_5059_2_s.jpg' alt='')
-			.apout__text
-				h2 Елена Исправникова
+			.about__avatar
+			.about__text
+				p.zag Елена Исправникова
 				p Личный сайт веб-разработчика
 	.header__bottom
-		span.fa.fa-chevron-down.fa-2x(href='#')
+		a(href="#")
+			svg.arrow
+				use(xlink:href='assets/img/sprite.svg#arrow_down')
+		svg.traingle(xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 85" preserveaspectratio="none")
+			polygon.left(points="0,0   0,86   500.8,86   500.8,75.5")
+			polygon.right(points="1000,0   1000,86   500,86   500,75.5")

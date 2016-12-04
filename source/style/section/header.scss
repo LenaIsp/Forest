@@ -3,21 +3,89 @@
 	background-size: cover;
 	padding-top: 30px;
 }
+.header__top {
+	margin-bottom: 65px;
+}
 
 .menu {
 	width: 100%;
 	display: inline-block;
 	font-size:0;
+		&__left {
+			width: 50%;
+			display: inline-block;
+			vertical-align: top;
+		}
+		&__right {
+				width: 50%;
+				display: inline-block;
+				text-align: right;
+			}
+		}
+
+.about {
+	position: relative;
+	&__fon {
+		position: absolute;
+		z-index: 0;
+		right:0;
+		left:0;
+		top: -20px;
+		text-align: center;
+	}
+	&__portfolio{
+		width: 60%;
+		height: 60%;
+		opacity: .2;
+	}
+	&__avatar {
+		position: relative;
+		z-index: 1;
+		height:8.625rem;
+		width:8.625rem;
+		border-radius: 50%;
+		background: #f8f9f5 url(../img/IMG_5059_2_s.jpg) 50% 50% no-repeat;
+		background-size: cover;
+		margin: 0 auto;
+	}
+	&__text {
+		color: #fff;
+		text-align: center;
+			.zag {
+				font-size: 2rem;
+				font-family: 'robotomedium';
+				padding: 1.2rem 0 .6rem 0;
+				margin: 0;
+			}
+	}
 }
 
-.menu__left {
-	width: 50%;
-	display: inline-block;
-	vertical-align: top;
+.header__bottom{
+	text-align: center;
+}
+.arrow{
+	padding-top: 7.9rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	fill: #fff;
+	fill-opacity: .6;
+	&:hover {
+		fill-opacity: .9;
+	}
+}
+.header__bottom {
+	width:100%;
+	color: #f8f9f;
 }
 
-.menu__right {
-	width: 50%;
-	display: inline-block;
-	text-align: right;
+.header__bottom {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.traingle .left{
+	fill: #f8f9f5;
+}
+.traingle .right{
+	fill: #f8f9f5;
 }
