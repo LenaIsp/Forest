@@ -1,5 +1,4 @@
-#Loftschool (выпускной проект №1)
-Исправникова Елена
+Loftschool
 http://elenaisp.ru/
 
 Stack:
